@@ -8,7 +8,7 @@
     "start": "node server/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Charith",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
