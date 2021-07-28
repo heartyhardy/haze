@@ -1,0 +1,27 @@
+.nav{
+    box-shadow: .5rem 0 1rem 1px rgba(10, 1, 41, 0.295);
+    width: auto;
+}
+
+ol{
+    background-color: ghostwhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    height: auto;
+    width: auto;
+    min-height: 5vh;
+    padding-top: 1rem;
+    margin: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    color: grey;
+}

@@ -1,0 +1,45 @@
+.parent{
+    width: auto;
+    background-color: whitesmoke;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr;
+    box-shadow: 2px 0 2px 1px rgba(211, 211, 211, 0.75);
+}
+
+.parent_play{
+    border-top: 1px solid rgba(0, 191, 255, 0.25);
+    border-bottom: 1px solid rgba(0, 191, 255, 0.5);
+}
+
+.playbutton, .caption, .operations{
+    padding: .25rem;
+    font-size: small;
+    font-family: 'Roboto', sans-serif;
+    user-select: none;
+}
+
+.playbutton{
+    color: lightsteelblue;
+    text-align: right;
+}
+
+.playbutton_play{
+    color: darkturquoise;
+    text-shadow: 2px 1px 10px lightseagreen;
+}
+
+.caption{
+    color: grey;
+    text-align: left;
+}
+
+.caption_play{
+    color:deepskyblue;
+}
+
+.operations{
+    color: black;
+    text-align: left;
+    font-size: smaller;
+}
