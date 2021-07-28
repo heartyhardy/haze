@@ -6,7 +6,7 @@ const {asyncWrapper} = require('./wrapper')
 // Route handlders
 
 router.get('/', asyncWrapper(async(req, res, next) =>{
-    res.json({message: "Welcome to HAZE app!"})
+    res.json({message: "HAZE"})
 }))
 
 module.exports = router
