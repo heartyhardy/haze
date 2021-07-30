@@ -1,0 +1,26 @@
+.parent{
+    /* background-color: chartreuse; */
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.albumart{
+    /* background-color: crimson; */
+    width: calc(100% - .5rem);
+    height: calc(100% - .5rem);
+    background-image: url('../../../assets/test/TSFH_album_art_2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 1rem;
+    border: .3rem solid whitesmoke;
+    box-shadow: .1rem 0 5rem 1px rgba(32, 178, 171, 0.5);
+}
+
+.albumart_play{
+    border: .3rem solid darkturquoise;
+    box-shadow: .1rem 0 5rem 1px rgba(32, 178, 171, 0.5);
+}
