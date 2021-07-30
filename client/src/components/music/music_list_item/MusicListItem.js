@@ -6,7 +6,11 @@ const MusicListItem = ({playing, song}) => {
         <div className= {playing ? `${styles.parent} ${styles.parent_play}` : styles.parent}> 
             <p className={playing ? `${styles.playbutton} ${styles.playbutton_play}` : styles.playbutton}>►</p>
             <p className={playing ? `${styles.caption} ${styles.caption_play}` : styles.caption}> {song} </p>
-            <p className={styles.operations}>♥</p>
+            <div className={styles.operations}>
+                <p className={styles.operation}>♥</p>
+                <p className={styles.operation}>♫</p>
+                <p className={styles.operation}>■</p>
+            </div>
         </div>
     )
 }

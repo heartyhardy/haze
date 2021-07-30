@@ -1,0 +1,16 @@
+.parent{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 1fr;
+    padding: 1rem;
+}
+
+.playlist{
+    /* background-color: blueviolet; */
+    /* box-shadow: .1rem 0 10rem 1px rgba(32, 178, 171, 0.45); */
+}
+
+.playlist_play{
+    box-shadow: .1rem 0 5rem 1px rgba(32, 178, 171, 0.45);    
+}
