@@ -6,7 +6,6 @@ app.use('/api', routes)
 
 const port = 3001;
 
-// Host the server
 app.listen(port, () => {
     console.log(`Server running at PORT: ${port}`)
 })
